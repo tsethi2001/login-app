@@ -43,14 +43,7 @@ behavior="padding"
           style={{ width: 200, height: 200 }}
         />
 <View style={styles.inputContainer}>
-{/* <TextInput
-            placeholder="Full Name"
-            autoFocus
-            type="text"
-            value={names}
-            style={styles.input}
-            onChangeText={nameChangeHandler}
-          /> */}
+
   <TextInput
     placeholder="Email"
     value={email}
