@@ -9,13 +9,10 @@ import * as firebase from "firebase"
 
 
 const RegisterScreen = () => {
-   // const [email, setEmail] = useState('')
+    const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-const[names,setName]=useState('')
 
-//  const nameChangeHandler=(props)=>{
-//      setName(props)
-//  }
+
 
 const handleSignUp=()=>{
     firebase.auth().createUserWithEmailAndPassword(email, password)
