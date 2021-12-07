@@ -3,7 +3,7 @@ import { StyleSheet, Text, View,TouchableOpacity } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { auth } from '../firebase'
 import RegisterScreen from './RegisterScreen'
-const HomeScreen = ({props}) => {
+const HomeScreen = () => {
    
       const navigation = useNavigation()
     
